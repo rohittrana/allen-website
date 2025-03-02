@@ -107,7 +107,8 @@ function Navbar() {
           fontSize: "20px",
         }}
       >
-        About
+        <span style={{color:"#f9ca24"}}>REGISTER FOR AOSAT✨</span>
+        <spa style={{color:"white"}}>Win up to 90% scholarship on our Online Courses </spa>
       </div>
     </>
   );

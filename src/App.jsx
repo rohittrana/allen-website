@@ -1,20 +1,14 @@
-import { useState } from "react";
-import "./App.css";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  useNavigate,
-  Navigate,
-} from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Landing from './Components/Landing';
+import Landing from "./Components/Landing";
+import Footer from "./Components/Footer";
 function App() {
-  return <>
-  <Navbar></Navbar>
-  <Landing></Landing>
-  </>;
+  return (
+    <>
+      <Navbar></Navbar>
+      <Landing></Landing>
+      <Footer></Footer>
+    </>
+  );
 }
 
 export default App;
